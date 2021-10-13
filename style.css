@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #66c5c0;
+  font-family: "Roboto Mono", monospace;
+  color: #17252a;
+}
+
+h1 {
+  margin-left: 32px;
+}
+
+.timer-container {
+  width: min(70%, 600px);
+  margin: 140px auto;
+  border-radius: 10px;
+  border: 4px solid #2b7a78;
+  background-color: #3aafa9;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 8px 8px 20px 8px rgba(25, 63, 62, 0.5);
+}
+
+p {
+  margin: 16px 0 48px;
+  font-size: 5rem;
+}
+
+button {
+  width: 25%;
+  height: 44px;
+  margin: 0 8px 16px;
+  border-radius: 5px;
+  border: 2px solid #17252a;
+  background-color: transparent;
+  font-family: "Roboto Mono", monospace;
+  box-shadow: 2px 2px 5px 3px rgba(25, 63, 62, 0.2);
+  cursor: pointer;
+}
+
+#play-btn {
+  background-color: #17252a;
+  color: #def2f1;
+}
+
+#reset-btn {
+  border: none;
+  width: 12%;
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: transparent !important;
+  color: #def2f1;
+  border: 2px solid #def2f1;
+}
